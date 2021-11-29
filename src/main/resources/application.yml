@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/sectors
+    username: postgres
+    password: postgres
+  flyway:
+    enabled: false
+
+management.endpoints.web.cors:
+  allowed-origins: 'http://localhost:4200'
